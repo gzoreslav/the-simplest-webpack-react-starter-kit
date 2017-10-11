@@ -23,8 +23,8 @@ const About = () => {
             </ul>
             <h2>How to use?</h2>
             <p className="code">
-                > git clone ...<br/>
-                > cd app_dir<br/>
+                > git clone https://github.com/gzoreslav/the-simplest-webpack-react-starter-kit.git<br/>
+                > cd the-simplest-webpack-react-starter-kit<br/>
                 > npm install
             </p>
             <h3>Development mode</h3>
