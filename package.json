@@ -1,0 +1,48 @@
+{
+  "name": "the-simplest-webpack-react-starter-kit",
+  "version": "1.0.0",
+  "description": "The simplest webpack starter kit for React",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [
+    "es6",
+    "react",
+    "react-16",
+    "sass",
+    "webpack",
+    "babel",
+    "starter-kit"
+  ],
+  "author": "gzoreslav@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "copy-webpack-plugin": "^4.1.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.6.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gzoreslav/the-simplest-webpack-react-starter-kit.git"
+  }
+}
