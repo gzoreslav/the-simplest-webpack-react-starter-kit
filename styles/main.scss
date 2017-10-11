@@ -4,13 +4,13 @@ body {
 }
 
 #root {
-  color: #333;
+  color: $default;
 
   > h1 {
-    color: #61dafb;
+    color: $react;
     margin: 0;
     padding: 10px 15px 10px 50px ;
-    background: #000 url(~/images/react-logo.svg) 15px center no-repeat;
+    background: $header url(~/public/images/react-logo.svg) 15px center no-repeat;
     background-size: 30px;
   }
 
@@ -18,9 +18,9 @@ body {
     padding: 10px 20px;
 
     .code {
-      background-color: rgba(0, 0, 0, 0.8);
+      background-color: $background;
       padding: 8px;
-      color: #fff;
+      color: $snow;
       font-weight: 300;
       border-radius: 4px
     }
