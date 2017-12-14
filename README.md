@@ -1,5 +1,8 @@
 # The simplest webpack starter kit for React
 
+[![Dependency Status](https://david-dm.org/gzoreslav/the-simplest-webpack-react-starter-kit.svg)](https://david-dm.org/gzoreslav/the-simplest-webpack-react-starter-kit)
+[![devDependencies Status](https://david-dm.org/gzoreslav/the-simplest-webpack-react-starter-kit/dev-status.svg)](https://david-dm.org/gzoreslav/the-simplest-webpack-react-starter-kit?type=dev)
+
 * ES6, SASS
 * build with official recommendations from [webpack](https://webpack.js.org) and [babel](http://babeljs.io/)
 * no flux included - use one that you prefer
